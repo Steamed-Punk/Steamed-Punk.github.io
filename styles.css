@@ -5,13 +5,13 @@
 
 #intro {
   display: block;
-  width:640px;
+  width:100%;
   margin: 50px auto;
 }
 
 p {
   display: block;
-  width: 640px;
+  width: 100%;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
