@@ -7,9 +7,13 @@
 	display: block;
 	width: 80%;
 	margin: 0px auto;
-	font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-
+p{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 
 
