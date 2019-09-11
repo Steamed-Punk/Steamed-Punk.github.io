@@ -18,11 +18,34 @@
   .auto-style1 {
 	  text-align: center;
   }
-  .auto-style2 {
-	text-align: right;
-	font-family: "Courier New";
-	font-size: medium;
+  
+* {
+  box-sizing: border-box;
 }
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+  .auto-style3 {
+	  font-weight: normal;
+	  font-size: medium;
+  }
+
+  .auto-style4 {
+	  color: #993399;
+  }
+  .auto-style5 {
+	  font-size: medium;
+	  color: #993399;
+  }
+
   </style>
 </head>
 
@@ -30,15 +53,24 @@
 
 <img src="/images/mfm_steamed_punk_02.png" id="intro" alt="mfm-png" style="width: 100%" />
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p class="auto-style2"><a href="texture-packs.html">Texture-Packs</a>
-<a href="mobs.html">Mobs</a></p>
-<p class="auto-style1">MODS</p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style1">
-<img alt="Campsite" height="320" src="images/screenshotmod01.png" width="480"></p>
-<p class="auto-style1">The Indian Village mod can be found at
-<a href="https://github.com/Steamed-Punk/Indian-Village-Mod">Github</a></p>
+<p class="auto-style1"><a href="texture-packs.html"><span class="auto-style5">
+texture_packs</span></a>&nbsp; MODS<span class="auto-style3">&nbsp;&nbsp; 
+<a href="mobs.html"><span class="auto-style4">mobs</span></a></span></p>
+<div class="row">
+    <div class="column" style="background-color:#000;">
+    	<h2 class="auto-style1">&nbsp;&nbsp; Indian Village Mod&nbsp;&nbsp; 
+		</h2>
+    <p class="auto-style1"><img alt="buffalo" height="320" src="images/screenshotmod01.png" width="480"><img alt="buffalo" height="320" src="images/screenshotmod01a.png" width="480"></p>
+  </div>
+  <div class="column" style="background-color:#000;">
+    <h2 class="auto-style1">Downloads</h2>
+    <p class="auto-style1">The teepee, campfire and all relative information can be found in the Indianvillage_mods 
+	repository at <a href="https://github.com/Steamed-Punk/Indian-Village-Mod">github</a></p>
+	  <p class="auto-style1">&nbsp;</p>
+	  <p class="auto-style1">Direct Download
+	  <a href="https://github.com/Steamed-Punk/Indian-Village-Mod/archive/master.zip">HERE</a></p>
+  </div>
+</div>
 
 </body>
 </html>
